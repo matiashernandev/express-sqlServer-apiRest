@@ -8,7 +8,31 @@ POST {{api}}
 Content-Type: application/json
 
 {
-    "name":"post desde vsc",
-    "description":"no entendiendo nada igual todo bien",
-    "quantity": 25555
+    "name":"sarasa desde vsc",
+    "description":"llora",
+    "quantity": 123456
+}
+
+###
+GET {{api}}/5
+
+
+
+### Borrando un prodcuto por ID
+DELETE {{api}}/4
+
+
+### contador
+
+GET {{api}}/count
+
+
+### update
+PUT {{api}}/5 
+Content-Type: application/json
+
+{
+    "name":"modificado ",
+    "description":"desde put",
+    "quantity": 2525
 }
